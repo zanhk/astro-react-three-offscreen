@@ -1,0 +1,58 @@
+{
+	"name": "@majesticostudio/majestico.co",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/majesticostudio/pollux.git"
+	},
+	"bugs": "https://github.com/majesticostudio/pollux/issues",
+	"homepage": "https://github.com/majesticostudio/pollux",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"wrangler:dev": "wrangler pages dev",
+		"pwa:generate-assets": "pwa-assets-generator --preset minimal public/logo.svg"
+	},
+	"dependencies": {
+		"@astrojs/cloudflare": "11.1.0",
+		"@astrojs/react": "3.6.2",
+		"@astrojs/tailwind": "5.1.2",
+		"@react-three/drei": "9.115.0",
+		"@react-three/fiber": "8.17.10",
+		"@react-three/offscreen": "0.0.8",
+		"@react-three/postprocessing": "2.16.3",
+		"@react-three/rapier": "1.5.0",
+		"astro": "4.16.7",
+		"detect-gpu": "5.0.53",
+		"maath": "0.10.8",
+		"react": "18.3.1",
+		"react-dom": "18.3.1",
+		"react-intersection-observer": "9.13.1",
+		"react-select": "5.8.2",
+		"splitting": "1.1.0",
+		"three": "0.169.0"
+	},
+	"devDependencies": {
+		"@astrolib/seo": "1.0.0-beta.8",
+		"@biomejs/biome": "1.9.4",
+		"@cloudflare/workers-types": "4.20241022.0",
+		"@types/alpinejs": "3.13.10",
+		"@types/react": "18.3.12",
+		"@types/react-dom": "18.3.1",
+		"@types/splitting": "1.0.6",
+		"@types/three": "0.169.0",
+		"@vite-pwa/assets-generator": "0.2.6",
+		"@vite-pwa/astro": "0.4.3",
+		"vite": "5.4.10"
+	},
+	"overrides": {
+		"sharp": "0.33.5",
+		"string-width": "4.1.0",
+		"strip-ansi": "5.2.0"
+	}
+}

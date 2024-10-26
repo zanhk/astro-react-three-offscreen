@@ -1,0 +1,19 @@
+---
+import BallsAnimation from "@/components/BallsAnimation";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+	<div>
+		<BallsAnimation client:only="react" />
+	</div>
+	<div>
+		<BallsAnimation />
+	</div>
+</BaseLayout>
+
+<style>
+	div {
+		height: 100vh;
+	}
+</style>

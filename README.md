@@ -1,1 +1,1 @@
-# astro-react-three-offscreen
+# Majestico

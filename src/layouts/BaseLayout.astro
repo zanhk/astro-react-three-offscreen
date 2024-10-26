@@ -1,0 +1,10 @@
+---
+const currentLocale = Astro.currentLocale;
+---
+
+<html lang={currentLocale}>
+	<head> </head>
+	<body id="body">
+		<slot />
+	</body>
+</html>

@@ -1,0 +1,43 @@
+{
+	"extends": "astro/tsconfigs/strict",
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNext",
+			"WebWorker"
+		],
+		"isolatedModules": true,
+		"module": "ESNext",
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"strictNullChecks": true,
+		"baseUrl": ".",
+		"emitDecoratorMetadata": true,
+		"strictPropertyInitialization": false,
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"paths": {
+			"@/*": [
+				"src/*"
+			],
+			"site": [
+				"site.config.ts"
+			]
+		},
+		"types": [
+			"astro/client",
+			"vite-plugin-pwa/vanillajs",
+			"vite-plugin-pwa/info",
+			"vite-plugin-pwa/pwa-assets",
+			"react",
+			"react-dom"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"dist",
+		"public"
+	]
+}
